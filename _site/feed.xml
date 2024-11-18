@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ventaubain</title>
+    <description>Des tutos pour mieux comprendre l&apos;IA, Kubernetes et le monde du Cloud !</description>
+    <link>http://localhost:4000/mediumish-theme-jekyll/</link>
+    <atom:link href="http://localhost:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Nov 2024 10:01:38 +0100</pubDate>
+    <lastBuildDate>Mon, 18 Nov 2024 10:01:38 +0100</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>Kubernetes - Learning Path</title>
+        <description>&lt;p&gt;Le Learning Path Kubernetes (K8S) recense les articles en lien avec l’apprentissage de Kubernetes pour un déploiement on-premise. Ces articles abordent les fondamentaux nécessaires à la compréhension théorique de K8S, le déploiement d’un cluster, son administration et sa sécurisation.&lt;/p&gt;
+
+&lt;p&gt;(A VENIR)&lt;/p&gt;
+
+&lt;h1 id=&quot;débutant&quot;&gt;Débutant&lt;/h1&gt;
+
+&lt;h1 id=&quot;intermédiaire&quot;&gt;Intermédiaire&lt;/h1&gt;
+
+&lt;h1 id=&quot;avancé&quot;&gt;Avancé&lt;/h1&gt;
+
+</description>
+        <pubDate>Wed, 13 Nov 2024 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/mediumish-theme-jekyll/k8s-path/</link>
+        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/k8s-path/</guid>
+        
+        
+        <category>tutoriel</category>
+        
+        <category>kubernetes</category>
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
+        <title>IA - Learning Path</title>
+        <description>&lt;p&gt;Le Learning Path IA recense les articles en lien avec les bases théoriques/pratiques de l’IA, notamment le Machine Learning. Ces articles abordent les fondamentaux théoriques, les outils de développement et des explications de papiers de recherche.&lt;/p&gt;
+
+&lt;p&gt;(A VENIR)&lt;/p&gt;
+
+&lt;h1 id=&quot;débutant&quot;&gt;Débutant&lt;/h1&gt;
+
+&lt;h1 id=&quot;intermédiaire&quot;&gt;Intermédiaire&lt;/h1&gt;
+
+&lt;h1 id=&quot;avancé&quot;&gt;Avancé&lt;/h1&gt;
+
+</description>
+        <pubDate>Wed, 13 Nov 2024 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/mediumish-theme-jekyll/ia-path/</link>
+        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/ia-path/</guid>
+        
+        
+        <category>tutoriel</category>
+        
+        <category>ia</category>
+        
+      </item>
+    
+      <item>
+        <title>AWS - Learning Path</title>
+        <description>&lt;p&gt;Le Learning Path AWS recense les artiles en lien avec l’apprentissage de &lt;em&gt;Amazon Web Services&lt;/em&gt; (AWS). Ces articles abordent les notions théoriques et pratiques pour explorer les possibilités d’AWS.&lt;/p&gt;
+
+&lt;p&gt;(A VENIR)&lt;/p&gt;
+
+&lt;h1 id=&quot;débutant&quot;&gt;Débutant&lt;/h1&gt;
+
+&lt;h1 id=&quot;intermédiaire&quot;&gt;Intermédiaire&lt;/h1&gt;
+
+&lt;h1 id=&quot;avancé&quot;&gt;Avancé&lt;/h1&gt;
+
+</description>
+        <pubDate>Wed, 13 Nov 2024 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/mediumish-theme-jekyll/aws/</link>
+        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/aws/</guid>
+        
+        
+        <category>tutoriel</category>
+        
+        <category>aws</category>
+        
+        <category>cloud</category>
+        
+      </item>
+    
+  </channel>
+</rss>
