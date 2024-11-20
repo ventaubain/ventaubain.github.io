@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/images/logo.png">
+
+<title>Le Cloud, qu'est-ce que c'est ? | ventaubain</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Le Cloud, qu’est-ce que c’est ? | ventaubain</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Le Cloud, qu’est-ce que c’est ?" />
+<meta name="author" content="ventaubain" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Afin de rendre disponible une prestation (site web, boite mail, stockage de fichiers...) via Internet, il est nécessaire que le service soit hébergé sur un serveur connecté à un réseau accessible par l&#39;utilisateur." />
+<meta property="og:description" content="Afin de rendre disponible une prestation (site web, boite mail, stockage de fichiers...) via Internet, il est nécessaire que le service soit hébergé sur un serveur connecté à un réseau accessible par l&#39;utilisateur." />
+<link rel="canonical" href="http://localhost:4000/cloud-overview/" />
+<meta property="og:url" content="http://localhost:4000/cloud-overview/" />
+<meta property="og:site_name" content="ventaubain" />
+<meta property="og:image" content="http://localhost:4000/assets/images/cloud-computing.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-11-18T00:00:00+01:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/cloud-computing.jpg" />
+<meta property="twitter:title" content="Le Cloud, qu’est-ce que c’est ?" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"ventaubain"},"dateModified":"2024-11-18T00:00:00+01:00","datePublished":"2024-11-18T00:00:00+01:00","description":"Afin de rendre disponible une prestation (site web, boite mail, stockage de fichiers...) via Internet, il est nécessaire que le service soit hébergé sur un serveur connecté à un réseau accessible par l&#39;utilisateur.","headline":"Le Cloud, qu’est-ce que c’est ?","image":"http://localhost:4000/assets/images/cloud-computing.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/cloud-overview/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"ventaubain"},"url":"http://localhost:4000/cloud-overview/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+    <a class="navbar-brand" href="/">
+    <img src="/assets/images/logo.png" alt="ventaubain">
+    </a>
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                <li class="nav-item">
+                
+                <a class="nav-link" href="/index.html">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+                </li>
+
+                <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+    <h1 class="sitetitle">ventaubain</h1>
+    <p class="lead">
+        Des tutos pour mieux comprendre l'IA, Kubernetes et le monde du Cloud !
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+    <!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Le Cloud, qu'est-ce que c'est ?&url=http://localhost:4000/cloud-overview/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/cloud-overview/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/cloud-overview/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+        <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    
+</div>
+
+        </div>
+
+        <!-- Post -->
+        
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="https://www.gravatar.com/avatar/?s=250&d=mm&r=x" alt="ventaubain">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href="">ventaubain</a><a target="_blank" href="" class="btn follow">Follow</a>
+                        <span class="author-description">Auteur</span>
+                    </div>
+                </div>
+                
+
+                <!-- Post Title -->
+                <h1 class="posttitle">Le Cloud, qu'est-ce que c'est ?</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/assets/images/cloud-computing.jpg" alt="Le Cloud, qu'est-ce que c'est ?">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <p align="justify">Afin de rendre disponible une prestation (site web, boite mail, stockage de fichiers...) via Internet, il est nécessaire que le service soit <u>hébergé sur un serveur connecté à un réseau accessible par l'utilisateur</u>.</p>
+
+<p align="justify">Le serveur-hébergeur possède des capacités de calculs (CPU, GPU), des capacités de stockage (RAM, HDD/SDD) et des capacités de réseaux (interface fibre optique, carte réseau wifi). Ses capacités permettent d'exécuter un programme et ainsi, de fournir la prestation. Il existe plusieurs types de serveurs: les serveurs Web, les serveurs de stockage, les serveurs de calculs... Un ordinateur personnel peut aussi être considéré comme un serveur.</p>
+
+<p align="center">
+  <img src="/assets/images/serveur-client.png" /><br /><i>Echange client-serveur</i>
+</p>
+
+<h2 id="les-difficultés-dun-déploiement-local-on-premise">Les difficultés d’un déploiement local (on-premise)</h2>
+
+<p>Plusieurs contraintes sont soulevées par l’utilisation de serveurs localement:</p>
+
+<p><b><u>Des contraintes matérielles</u></b>:</p>
+<ul>
+  <li>Un serveur est cher à l’achat et durant son utilisation (électricité, refroidissement…)</li>
+  <li>Un serveur nécessite d’être hébergé dans un environnement approprié</li>
+</ul>
+
+<p><b><u>Des contraintes opérationnelles</u></b>:</p>
+<ul>
+  <li>Evaluer les besoins capacitaires d’un service est difficile</li>
+  <li>Les capacités d’évolution sont limitées</li>
+  <li>La résilience aux avaries (incendie, inondation…) est limitée</li>
+  <li>Présence d’une équipe de maintenance 24/7 nécessaire</li>
+</ul>
+
+<p align="justify">
+Afin de limiter ces contraintes, de nombreuses entreprises décident d'externaliser la gestion de leur infrastructure IT. Cette externalisation est possible grâce <b>Cloud computing</b> (en français, « informatique dans les nuages »).
+</p>
+
+<h2 id="mais-quest-ce-que-le-cloud-computing-">Mais qu’est-ce que le Cloud computing ?</h2>
+
+<p align="center">
+  <img src="/assets/images/cloud.webp" /><br />
+</p>
+
+<p>Définition de la <em>CNIL</em> (Commission nationale de l’informatique et des libertés):</p>
+<blockquote>
+  <p>Le cloud computing (en français, « informatique dans les nuages ») fait référence à l’utilisation de la mémoire et des capacités de calcul des ordinateurs et des serveurs répartis dans le monde entier et liés par un réseau. Les applications et les données ne se trouvent plus sur un ordinateur déterminé mais dans un nuage (cloud) composé de nombreux serveurs distants interconnectés.</p>
+</blockquote>
+
+<p>En complément de cette définition, nous pouvons ajouter que:</p>
+<ul>
+  <li>
+    <p align="justify">Tout traitement réalisé via Internet n'est pas nécessairement issu du Cloud computing si l'application est hébergée sur un serveur unique.</p>
+  </li>
+  <li>
+    <p align="justify">La connaissance de l'emplacement et du fonctionnement des serveurs est acquise ou non par le client.</p>
+  </li>
+</ul>
+
+<p align="justify">Au niveau opérationelle, le Cloud computing possède les caractéristiques suivantes:</p>
+
+<ul>
+  <li>Les ressources sont allouées au client <strong>à la demande</strong></li>
+  <li>Le client peut définir les <strong>ressources exactes</strong> qu’il désire</li>
+  <li>Le client peut accéder aux ressources <strong>quasi-instantanément</strong></li>
+  <li>Le client ne <strong>paye que les ressources qu’il consomme</strong></li>
+  <li>Les <strong>coûts sont diminués</strong> grâce aux économies d’échelle d’AWS</li>
+  <li>Permet une <strong>exposition mondiale</strong> en quelques minutes</li>
+</ul>
+
+<p>Ainsi, l’utilisation du Cloud computing permet, dans le cadre des coûts de l’infrastructure IT, de passer de dépenses d’investissement (<b>CAPEX</b>) à des dépenses d’exploitation (<b>OPEX</b>).</p>
+
+<p align="justify"><b>CAPEX</b>: Les dépenses d'investissement sont des fonds utilisés par une organisation pour acquérir, améliorer ou entretenir des actifs. Il s'agit souvent de dépenses à long terme, prévisionnées et importantes (exemple: l'achat d'un serveur).</p>
+
+<p align="justify"><b>OPEX</b>: Les dépenses d'exploitation sont les coûts nécessaires pour maintenir les opérations quotidiennes d'une organisation. Ces dépenses sont récurrentes et essentielles au maintien de l'activité (exemple: coûts d'hébergement dans le Cloud).</p>
+
+<h2 id="les-différents-types-de-déploiement-dune-architecture-cloud">Les différents types de déploiement d’une architecture Cloud</h2>
+
+<p align="justify">
+Afin de répondre aux différents besoins des clients, différents modèles de Cloud computing ont été développés:
+</p>
+
+<ul>
+  <li>
+    <p align="justify"><b>On-premise</b>: Les ressources on-premise correspond à un déploiement local de l'infrastructure indépendamment de toute gestion réalisée par un prestataire extérieur. Le client est responsable de l'achat, du déploiement, de l'administration et de la gestion de l'ensemble des ressources nécessaires à son activité.</p>
+  </li>
+  <li>
+    <p align="justify"><b>Cloud privé</b>: Les ressources d'un Cloud privé sont exclusivement utilisées <b>par une seule organisation</b>. Cette dernière possède l'ensemble des informations liées à l'infrastructure matérielle (localisation des machines, caractéristiques...). Le Cloud peut être déployé dans les locaux de l'organisation ou dans ceux d'un fournisseur tiers. De même, il est généralement déployé sur un réseau privé non exposé au public.</p>
+  </li>
+  <li>
+    <p align="justify"><b>Cloud public</b>: Les ressources d'un Cloud public sont fournis par un fournisseur tiers. Elles sont <b>partagées entre plusieurs organisations</b> et une même machine peut avoir des ressources partagées entre plusieurs clients distincts.</p>
+  </li>
+</ul>
+
+<p align="center">
+  <img src="/assets/images/cloud-public-prive.png" /><br />
+</p>
+
+<ul>
+  <li>
+    <p align="justify"><b>Cloud hybride</b>: Les ressources d'un Cloud hybride sont réparties au sein de <b>plusieurs Cloud de plusieurs types</b> notamment le couple public-privé. Au sein d'un Cloud hybride, les applications peuvent être réparties au sein des différents environnements de manière indifférenciée (en considérant les règles de sécurité pouvant virtuellement bloquées le déploiement). Le Cloud hybride repose ainsi souvent sur des technologies d'orchestration/d'intégration.</p>
+  </li>
+  <li>
+    <p align="justify"><b>MultiCloud</b>: Les ressources d'un MultiCloud sont réparties au sein de <b>plusieurs Cloud d'un même type</b> (public ou privé) mais proposés par différents fournisseurs. Les applications sont généralement isolées à un certain Cloud et non réparties au sein des différents fournisseurs.</p>
+  </li>
+</ul>
+
+<p align="center">
+  <img src="/assets/images/cloud-hybrid-multi.svg" /><br />
+</p>
+
+<h2 id="les-différents-types-de-cloud">Les différents types de Cloud</h2>
+
+<ul>
+  <li><strong>Infrastructure as a Service</strong> (IaaS): Le fournisseur met à disposition une infrastructure (serveurs, réseau, virtualisation, stockage) et donne un accès internet au client. Le client est en charge de l’administration de la couche logique de l’infrastructure et de son installation (système d’exploitation, application…).</li>
+  <li><strong>Plaform as a Service</strong> (PaaS): Le fournisseur met à disposition un environnement opérationnelle (infrastructure et interface système-application). Le client est en charge de la gestion des applications déployées et des données exploitées.</li>
+  <li><strong>Software as a Service</strong> (SaaS): Le fournisseur met à disposition une application au client. Cette application est hébergée et maintenue par le fournisseur. Le client devient simple utilisateur et ne fournit que des données nécessaires à son activité.</li>
+</ul>
+
+<p align="center">
+  <img src="/assets/images/saas-paas-iaas.jpg" /><br />
+</p>
+
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2024-11-18">18 Nov 2024</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#aws">aws</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#cloud">cloud</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#tutoriel">tutoriel</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="//k8s-path/"> &laquo; Kubernetes - Learning Path</a>
+            
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+
+</div>
+
+
+    
+</div>
+
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+                
+                    <a class="mt-1 mb-1" href="/categories#tutoriel">tutoriel (4)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#aws">aws (2)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#cloud">cloud (3)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#ia">ia (1)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#kubernetes">kubernetes (1)</a>
+                
+            
+            
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                Copyright © 2024 ventaubain 
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//.disqus.com/count.js"></script>
+
+
+</body>
+</html>

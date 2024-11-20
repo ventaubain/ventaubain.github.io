@@ -3,15 +3,145 @@
   <channel>
     <title>ventaubain</title>
     <description>Des tutos pour mieux comprendre l&apos;IA, Kubernetes et le monde du Cloud !</description>
-    <link>http://localhost:4000/mediumish-theme-jekyll/</link>
-    <atom:link href="http://localhost:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Nov 2024 10:01:38 +0100</pubDate>
-    <lastBuildDate>Mon, 18 Nov 2024 10:01:38 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 20 Nov 2024 10:44:47 +0100</pubDate>
+    <lastBuildDate>Wed, 20 Nov 2024 10:44:47 +0100</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
+        <title>Le Cloud, qu&apos;est-ce que c&apos;est ?</title>
+        <description>&lt;p align=&quot;justify&quot;&gt;Afin de rendre disponible une prestation (site web, boite mail, stockage de fichiers...) via Internet, il est nécessaire que le service soit &lt;u&gt;hébergé sur un serveur connecté à un réseau accessible par l&apos;utilisateur&lt;/u&gt;.&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Le serveur-hébergeur possède des capacités de calculs (CPU, GPU), des capacités de stockage (RAM, HDD/SDD) et des capacités de réseaux (interface fibre optique, carte réseau wifi). Ses capacités permettent d&apos;exécuter un programme et ainsi, de fournir la prestation. Il existe plusieurs types de serveurs: les serveurs Web, les serveurs de stockage, les serveurs de calculs... Un ordinateur personnel peut aussi être considéré comme un serveur.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/serveur-client.png&quot; /&gt;&lt;br /&gt;&lt;i&gt;Echange client-serveur&lt;/i&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;les-difficultés-dun-déploiement-local-on-premise&quot;&gt;Les difficultés d’un déploiement local (on-premise)&lt;/h2&gt;
+
+&lt;p&gt;Plusieurs contraintes sont soulevées par l’utilisation de serveurs localement:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;u&gt;Des contraintes matérielles&lt;/u&gt;&lt;/b&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Un serveur est cher à l’achat et durant son utilisation (électricité, refroidissement…)&lt;/li&gt;
+  &lt;li&gt;Un serveur nécessite d’être hébergé dans un environnement approprié&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;u&gt;Des contraintes opérationnelles&lt;/u&gt;&lt;/b&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Evaluer les besoins capacitaires d’un service est difficile&lt;/li&gt;
+  &lt;li&gt;Les capacités d’évolution sont limitées&lt;/li&gt;
+  &lt;li&gt;La résilience aux avaries (incendie, inondation…) est limitée&lt;/li&gt;
+  &lt;li&gt;Présence d’une équipe de maintenance 24/7 nécessaire&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+Afin de limiter ces contraintes, de nombreuses entreprises décident d&apos;externaliser la gestion de leur infrastructure IT. Cette externalisation est possible grâce &lt;b&gt;Cloud computing&lt;/b&gt; (en français, « informatique dans les nuages »).
+&lt;/p&gt;
+
+&lt;h2 id=&quot;mais-quest-ce-que-le-cloud-computing-&quot;&gt;Mais qu’est-ce que le Cloud computing ?&lt;/h2&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/cloud.webp&quot; /&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Définition de la &lt;em&gt;CNIL&lt;/em&gt; (Commission nationale de l’informatique et des libertés):&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Le cloud computing (en français, « informatique dans les nuages ») fait référence à l’utilisation de la mémoire et des capacités de calcul des ordinateurs et des serveurs répartis dans le monde entier et liés par un réseau. Les applications et les données ne se trouvent plus sur un ordinateur déterminé mais dans un nuage (cloud) composé de nombreux serveurs distants interconnectés.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En complément de cette définition, nous pouvons ajouter que:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p align=&quot;justify&quot;&gt;Tout traitement réalisé via Internet n&apos;est pas nécessairement issu du Cloud computing si l&apos;application est hébergée sur un serveur unique.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p align=&quot;justify&quot;&gt;La connaissance de l&apos;emplacement et du fonctionnement des serveurs est acquise ou non par le client.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Au niveau opérationelle, le Cloud computing possède les caractéristiques suivantes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Les ressources sont allouées au client &lt;strong&gt;à la demande&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Le client peut définir les &lt;strong&gt;ressources exactes&lt;/strong&gt; qu’il désire&lt;/li&gt;
+  &lt;li&gt;Le client peut accéder aux ressources &lt;strong&gt;quasi-instantanément&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Le client ne &lt;strong&gt;paye que les ressources qu’il consomme&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Les &lt;strong&gt;coûts sont diminués&lt;/strong&gt; grâce aux économies d’échelle d’AWS&lt;/li&gt;
+  &lt;li&gt;Permet une &lt;strong&gt;exposition mondiale&lt;/strong&gt; en quelques minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ainsi, l’utilisation du Cloud computing permet, dans le cadre des coûts de l’infrastructure IT, de passer de dépenses d’investissement (&lt;b&gt;CAPEX&lt;/b&gt;) à des dépenses d’exploitation (&lt;b&gt;OPEX&lt;/b&gt;).&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;CAPEX&lt;/b&gt;: Les dépenses d&apos;investissement sont des fonds utilisés par une organisation pour acquérir, améliorer ou entretenir des actifs. Il s&apos;agit souvent de dépenses à long terme, prévisionnées et importantes (exemple: l&apos;achat d&apos;un serveur).&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;OPEX&lt;/b&gt;: Les dépenses d&apos;exploitation sont les coûts nécessaires pour maintenir les opérations quotidiennes d&apos;une organisation. Ces dépenses sont récurrentes et essentielles au maintien de l&apos;activité (exemple: coûts d&apos;hébergement dans le Cloud).&lt;/p&gt;
+
+&lt;h2 id=&quot;les-différents-types-de-déploiement-dune-architecture-cloud&quot;&gt;Les différents types de déploiement d’une architecture Cloud&lt;/h2&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+Afin de répondre aux différents besoins des clients, différents modèles de Cloud computing ont été développés:
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p align=&quot;justify&quot;&gt;&lt;b&gt;On-premise&lt;/b&gt;: Les ressources on-premise correspond à un déploiement local de l&apos;infrastructure indépendamment de toute gestion réalisée par un prestataire extérieur. Le client est responsable de l&apos;achat, du déploiement, de l&apos;administration et de la gestion de l&apos;ensemble des ressources nécessaires à son activité.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p align=&quot;justify&quot;&gt;&lt;b&gt;Cloud privé&lt;/b&gt;: Les ressources d&apos;un Cloud privé sont exclusivement utilisées &lt;b&gt;par une seule organisation&lt;/b&gt;. Cette dernière possède l&apos;ensemble des informations liées à l&apos;infrastructure matérielle (localisation des machines, caractéristiques...). Le Cloud peut être déployé dans les locaux de l&apos;organisation ou dans ceux d&apos;un fournisseur tiers. De même, il est généralement déployé sur un réseau privé non exposé au public.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p align=&quot;justify&quot;&gt;&lt;b&gt;Cloud public&lt;/b&gt;: Les ressources d&apos;un Cloud public sont fournis par un fournisseur tiers. Elles sont &lt;b&gt;partagées entre plusieurs organisations&lt;/b&gt; et une même machine peut avoir des ressources partagées entre plusieurs clients distincts.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/cloud-public-prive.png&quot; /&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p align=&quot;justify&quot;&gt;&lt;b&gt;Cloud hybride&lt;/b&gt;: Les ressources d&apos;un Cloud hybride sont réparties au sein de &lt;b&gt;plusieurs Cloud de plusieurs types&lt;/b&gt; notamment le couple public-privé. Au sein d&apos;un Cloud hybride, les applications peuvent être réparties au sein des différents environnements de manière indifférenciée (en considérant les règles de sécurité pouvant virtuellement bloquées le déploiement). Le Cloud hybride repose ainsi souvent sur des technologies d&apos;orchestration/d&apos;intégration.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p align=&quot;justify&quot;&gt;&lt;b&gt;MultiCloud&lt;/b&gt;: Les ressources d&apos;un MultiCloud sont réparties au sein de &lt;b&gt;plusieurs Cloud d&apos;un même type&lt;/b&gt; (public ou privé) mais proposés par différents fournisseurs. Les applications sont généralement isolées à un certain Cloud et non réparties au sein des différents fournisseurs.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/cloud-hybrid-multi.svg&quot; /&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;les-différents-types-de-cloud&quot;&gt;Les différents types de Cloud&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Infrastructure as a Service&lt;/strong&gt; (IaaS): Le fournisseur met à disposition une infrastructure (serveurs, réseau, virtualisation, stockage) et donne un accès internet au client. Le client est en charge de l’administration de la couche logique de l’infrastructure et de son installation (système d’exploitation, application…).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Plaform as a Service&lt;/strong&gt; (PaaS): Le fournisseur met à disposition un environnement opérationnelle (infrastructure et interface système-application). Le client est en charge de la gestion des applications déployées et des données exploitées.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Software as a Service&lt;/strong&gt; (SaaS): Le fournisseur met à disposition une application au client. Cette application est hébergée et maintenue par le fournisseur. Le client devient simple utilisateur et ne fournit que des données nécessaires à son activité.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/saas-paas-iaas.jpg&quot; /&gt;&lt;br /&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Nov 2024 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/cloud-overview/</link>
+        <guid isPermaLink="true">http://localhost:4000/cloud-overview/</guid>
+        
+        
+        <category>tutoriel</category>
+        
+        <category>aws</category>
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
         <title>Kubernetes - Learning Path</title>
-        <description>&lt;p&gt;Le Learning Path Kubernetes (K8S) recense les articles en lien avec l’apprentissage de Kubernetes pour un déploiement on-premise. Ces articles abordent les fondamentaux nécessaires à la compréhension théorique de K8S, le déploiement d’un cluster, son administration et sa sécurisation.&lt;/p&gt;
+        <description>&lt;p&gt;Cette page recense les articles en lien avec l’apprentissage de Kubernetes pour un déploiement on-premise. Ces articles abordent les fondamentaux nécessaires à la compréhension théorique de K8S, le déploiement d’un cluster, son administration et sa sécurisation.&lt;/p&gt;
 
 &lt;p&gt;(A VENIR)&lt;/p&gt;
 
@@ -23,8 +153,8 @@
 
 </description>
         <pubDate>Wed, 13 Nov 2024 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/k8s-path/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/k8s-path/</guid>
+        <link>http://localhost:4000/k8s-path/</link>
+        <guid isPermaLink="true">http://localhost:4000/k8s-path/</guid>
         
         
         <category>tutoriel</category>
@@ -36,8 +166,8 @@
       </item>
     
       <item>
-        <title>IA - Learning Path</title>
-        <description>&lt;p&gt;Le Learning Path IA recense les articles en lien avec les bases théoriques/pratiques de l’IA, notamment le Machine Learning. Ces articles abordent les fondamentaux théoriques, les outils de développement et des explications de papiers de recherche.&lt;/p&gt;
+        <title>IA</title>
+        <description>&lt;p&gt;Cette page recense les articles en lien avec les bases théoriques/pratiques de l’IA, notamment le Machine Learning. Ces articles abordent les fondamentaux théoriques, les outils de développement et des explications de papiers de recherche.&lt;/p&gt;
 
 &lt;p&gt;(A VENIR)&lt;/p&gt;
 
@@ -49,8 +179,8 @@
 
 </description>
         <pubDate>Wed, 13 Nov 2024 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/ia-path/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/ia-path/</guid>
+        <link>http://localhost:4000/ia-path/</link>
+        <guid isPermaLink="true">http://localhost:4000/ia-path/</guid>
         
         
         <category>tutoriel</category>
@@ -60,8 +190,8 @@
       </item>
     
       <item>
-        <title>AWS - Learning Path</title>
-        <description>&lt;p&gt;Le Learning Path AWS recense les artiles en lien avec l’apprentissage de &lt;em&gt;Amazon Web Services&lt;/em&gt; (AWS). Ces articles abordent les notions théoriques et pratiques pour explorer les possibilités d’AWS.&lt;/p&gt;
+        <title>AWS</title>
+        <description>&lt;p&gt;Cette page recense les articles en lien avec l’apprentissage de &lt;em&gt;Amazon Web Services&lt;/em&gt; (AWS). Ces articles abordent les notions théoriques et pratiques pour explorer les possibilités d’AWS.&lt;/p&gt;
 
 &lt;p&gt;(A VENIR)&lt;/p&gt;
 
@@ -73,8 +203,8 @@
 
 </description>
         <pubDate>Wed, 13 Nov 2024 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/aws/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/aws/</guid>
+        <link>http://localhost:4000/aws-path/</link>
+        <guid isPermaLink="true">http://localhost:4000/aws-path/</guid>
         
         
         <category>tutoriel</category>
