@@ -5,8 +5,8 @@
     <description>Des tutos pour mieux comprendre l&apos;IA, Kubernetes et le monde du Cloud !</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Nov 2024 10:44:47 +0100</pubDate>
-    <lastBuildDate>Wed, 20 Nov 2024 10:44:47 +0100</lastBuildDate>
+    <pubDate>Wed, 20 Nov 2024 10:51:15 +0100</pubDate>
+    <lastBuildDate>Wed, 20 Nov 2024 10:51:15 +0100</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -140,7 +140,7 @@ Afin de répondre aux différents besoins des clients, différents modèles de C
       </item>
     
       <item>
-        <title>Kubernetes - Learning Path</title>
+        <title>Kubernetes</title>
         <description>&lt;p&gt;Cette page recense les articles en lien avec l’apprentissage de Kubernetes pour un déploiement on-premise. Ces articles abordent les fondamentaux nécessaires à la compréhension théorique de K8S, le déploiement d’un cluster, son administration et sa sécurisation.&lt;/p&gt;
 
 &lt;p&gt;(A VENIR)&lt;/p&gt;
@@ -193,9 +193,11 @@ Afin de répondre aux différents besoins des clients, différents modèles de C
         <title>AWS</title>
         <description>&lt;p&gt;Cette page recense les articles en lien avec l’apprentissage de &lt;em&gt;Amazon Web Services&lt;/em&gt; (AWS). Ces articles abordent les notions théoriques et pratiques pour explorer les possibilités d’AWS.&lt;/p&gt;
 
-&lt;p&gt;(A VENIR)&lt;/p&gt;
-
 &lt;h1 id=&quot;débutant&quot;&gt;Débutant&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/cloud-overview/&quot;&gt;Le Cloud computing, qu’est-ce que c’est ?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&quot;intermédiaire&quot;&gt;Intermédiaire&lt;/h1&gt;
 
