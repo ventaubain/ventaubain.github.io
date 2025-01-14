@@ -42,5 +42,4 @@ beforetoc:
 
 Un problème d'induction est défini par plusieurs composantes:
 
-1. <p align="justify"><b>L'environnement</b>: L'environnement permet de générer des entités $x_i$ obtenues indépendamment et de manière identiquement distribuées (échantillon i.i.d) selon une distribution $D_x$ sur un espace $\mathbb{X}$. On supposera l'environnement stationnaire pour des raisons de simplification. Néanmoins, il est possible de considérer l'environnement comme évolutif au cours du temps. Cette particularité est souvent considérée dans le cadre de l'apprentissage en ligne.</p>
- [...]
+1. <b>L'environnement</b>: <p align="justify">L'environnement permet de générer des entités $x_i$ obtenues indépendamment et de manière identiquement distribuées (échantillon i.i.d) selon une distribution $D_x$ sur un espace $\mathbb{X}$. On supposera l'environnement stationnaire pour des raisons de simplification. Néanmoins, il est possible de considérer l'environnement comme évolutif au cours du temps. Cette particularité est souvent considérée dans le cadre de l'apprentissage en ligne.
