@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intelligence artificielle, Apprentissage profond et Deep Learning... Kézako ?"
+title: "Intelligence artificielle, Apprentissage automatique et Deep Learning... Kézako ?"
 author: ventaubain
 categories: [définition,ia,débutant]
 image: assets/images/machine-learning-definition.jpg
