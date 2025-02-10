@@ -60,7 +60,7 @@ Un problème d'induction est défini par plusieurs composantes:
 ### Risque réel
 
 <p align="justify">
-Soit $x_i \in D_\mathbb{X}$, $h \in \mathbb{H}$ et réponse de l'apprenant, $y_i \in \mathbb{U}$ et réponse de l'oracle. On définit la <i><b>fonction perte</b></i> $l$ tel que $l(y_i,h(x_i))$ calcule l'erreur d'estimation de $h(x_i)$ lorsque la réponse attendue est $y_i$. On peut alors définir le <i><b>risque réel</b></i> estimant l'erreur cumulée sur l'ensemble de l'environnement:
+Soit \(x_i \in D_\mathbb{X}\), $h \in \mathbb{H}$ et réponse de l'apprenant, $y_i \in \mathbb{U}$ et réponse de l'oracle. On définit la <i><b>fonction perte</b></i> $l$ tel que $l(y_i,h(x_i))$ calcule l'erreur d'estimation de $h(x_i)$ lorsque la réponse attendue est $y_i$. On peut alors définir le <i><b>risque réel</b></i> estimant l'erreur cumulée sur l'ensemble de l'environnement:
 $$R_{reel}(h) = \int_{\mathbb{X} \times \mathbb{U}}l(y_i,h(x_i))dF(x,y)$$ 
 </p>
 
@@ -103,7 +103,7 @@ $$R_{emp}(h)=\frac{1}{n}\sum_{i=1}^nl(y_i,h(x_i))$$
 
 <p align="justify">
 Le principe ERM repose sur une hypothèse forte. Il suppose que la fonction hypothèse qui s'accorde le mieux aux données d'apprentissage est une fonction capable de correctement décrire le phénomène général observé. Elle repose sur l'axiome qu'une caractéristique observée sur les données connues est aussi vérifiée par les autres données générées par le phénomène considéré. Ainsi:
-$$h_{ERM}=\underset{h \in \mathcal{H}}{argmin}(R_{emp}(h))$$
+$$ h_{ERM}=\underset{h \in \mathcal{H}}{argmin}(R_{emp}(h)) $$
 </p>
 
 <p align="justify">
