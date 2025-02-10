@@ -2,7 +2,7 @@
 layout: post
 title: "Le Cloud, qu'est-ce que c'est ?"
 author: ventaubain
-categories: [théorie,cloud,débutant,fondamentaux]
+categories: [définitions,cloud,débutant]
 image: assets/images/cloud-computing.jpg
 featured: false
 hidden: false
