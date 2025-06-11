@@ -1,7 +1,7 @@
 # Site
 name: "ventaubain"
 title: "ventaubain"
-description: "Des tutos pour mieux comprendre l'IA, Kubernetes et le monde du Cloud !"
+description: "Vulgarisation et explications de papiers de recherche concernant l'Intelligence artificielle"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl:
@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-scholar
     
 # Archives
 jekyll-archives:
