@@ -16,7 +16,7 @@ beforetoc:
 > 
 > Pour avoir les fondamentaux théoriques pour bien comprendre cet article, je vous invite à lire l'article suivant [<b>Qu'est-ce que l'induction, le concept théorique au coeur du Machine Learning ?</b>]({{ site.baseurl }}/induction/) ! 
 
-<p align="justify"> La quête du modèle "parfait" (i.e meilleurs que tous les autres) d'Intelligence Artificielle anime l'ensemble des ingénieurs en Machine Learning. Mais ce doux rêve (le Modèle Unique) est-il possible ? Un théorème important, le <b>No Free Lunch</b> {% cite nflt %}, apporte une réponse théorique à cette question.</p>
+<p align="justify"> La quête du modèle "parfait" (i.e meilleurs que tous les autres) d'Intelligence Artificielle anime l'ensemble des ingénieurs en Machine Learning. Mais ce doux rêve (le Modèle Unique) est-il possible ? Un théorème important, le <b>No Free Lunch</b>, apporte une réponse théorique à cette question.</p>
 
 ### Définition du No Free Lunch Theorem
 
@@ -60,4 +60,4 @@ $$E_{M_1}[R_{reel}|f,m]-E_{M_2}[R_{reel}|f,m]=0$$
 
 ## Références
 
-{% bibliography --cited %}
+Wolpert, D. H. and Macready, W. G. (1997). "No Free Lunch Theorems for Optimization"
